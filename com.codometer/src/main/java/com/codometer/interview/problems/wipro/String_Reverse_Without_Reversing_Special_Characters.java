@@ -35,7 +35,6 @@ public class String_Reverse_Without_Reversing_Special_Characters {
 				j++;
 			}
 		}
-		
 		for(Map.Entry<Integer, Character> entry : hs.entrySet())
 			outputCharArray[entry.getKey()] = entry.getValue();
 		
