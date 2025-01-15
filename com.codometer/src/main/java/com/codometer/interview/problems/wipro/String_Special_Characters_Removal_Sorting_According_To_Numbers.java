@@ -13,8 +13,6 @@ public class String_Special_Characters_Removal_Sorting_According_To_Numbers
 {
 	public static void main(String args[])
 	{
-
-            int i,key; String value;
             
             TreeMap<Integer,String> hm = new TreeMap<>();
             
@@ -23,12 +21,11 @@ public class String_Special_Characters_Removal_Sorting_According_To_Numbers
             
             String [] extractedNames = names.split("#");
       
-            for(i = 0;i < extractedNames.length; i++)
+            for(int i = 0;i < extractedNames.length; i++)
             {
             	
                 if(extractedNames[i].split("-").length>1)
                 {
-                	
                     hm.put(Integer.parseInt(extractedNames[i].split("-")[1]),extractedNames[i].split("-")[0]);
                 }
                 
