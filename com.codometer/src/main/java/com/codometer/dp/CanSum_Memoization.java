@@ -1,5 +1,8 @@
 package com.codometer.dp;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * canSum problem is to return true/false if the target sum is achieved with any combination of array
  * elements with memoization approach
@@ -7,10 +10,12 @@ package com.codometer.dp;
 
 public class CanSum_Memoization 
 {
-	public static boolean canSum(int targetSum,int []numbersArray)
+	public static boolean canSum(int targetSum,int []numbersArray,List<Integer>cache)
 	{
 		int remainder;
 		
+		if(cache.contains(targetSum))
+			return true;
 		if(targetSum == 0)
 				return true;
 		if(targetSum < 0)
@@ -19,7 +24,8 @@ public class CanSum_Memoization
 		for(int number : numbersArray)
 		{
 			remainder = targetSum - number;
-			if(canSum(remainder,numbersArray) == true)
+			cache.add(remainder);
+			if(canSum(remainder,numbersArray,cache) == true)
 				return true;
 		} 
 		return false;
@@ -28,6 +34,7 @@ public class CanSum_Memoization
     public static void main( String[] args )
     {
     	int []numberArray = {10,20,30,23,4,54};
-    	System.out.println(CanSum_Memoization.canSum(50, numberArray));
+    	List<Integer> cache = new ArrayList<>();
+    	System.out.println(CanSum_Memoization.canSum(27, numberArray,cache));
     }
 }
