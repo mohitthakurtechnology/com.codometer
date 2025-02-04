@@ -19,6 +19,7 @@ public class HowSum_Memoization_Any_Combination
 {
 	public static List<Integer> howSum(int targetSum,int []numbersArray,Map<Integer,List<Integer>> cache)
 	{	
+		
 		int remainder;
 		List<Integer> result = new ArrayList<>();
 		
@@ -45,6 +46,7 @@ public class HowSum_Memoization_Any_Combination
 				return result;
 			}
 		}
+		
 		return null;
 	}
 	
@@ -55,6 +57,6 @@ public class HowSum_Memoization_Any_Combination
     	int number = 33;
     	
     	Map<Integer,List<Integer>> cache = new HashMap<>();
-    	System.out.println("How Sum Of Number "+number+" Is => " + HowSum_Memoization_Any_Combination.howSum(number, numberArray,cache));
+    	System.out.println("How Sum Of Number " + number + " Is => " + HowSum_Memoization_Any_Combination.howSum(number, numberArray,cache));
     }
 }
