@@ -40,6 +40,8 @@ public class RestAssuredOps implements IRestAssured
 	@Override
 	public RequestSpecification setUpAClient(String authenticationType) {
 		
+		// Query param , path param implemention at the set up level and the each CRUD level
+		
 		RestAssured.baseURI = this.baseUri;
 		
 		String userName = null;
@@ -73,7 +75,7 @@ public class RestAssuredOps implements IRestAssured
 		
 		 	overriddenBaseUri = (endpoint != null) ? this.baseUri.concat(endpoint) : this.baseUri; // /checks here needed ...
 		 	
-		 	return handle.get(overriddenBaseUri).getBody().asString();
+		 	return handle.get(overriddenBaseUri).getBody().asPrettyString();
 		 	
 	}
 
@@ -81,19 +83,24 @@ public class RestAssuredOps implements IRestAssured
 	public String getPayload(String endpoint,RequestSpecification handle) {
 		
 		overriddenBaseUri = (endpoint != null) ? this.baseUri.concat(endpoint) : this.baseUri; // /checks here needed ...
-		return handle.get(overriddenBaseUri).getBody().asString();
+		return handle.get(overriddenBaseUri).getBody().asPrettyString();
 		
 	}
 
 	@Override
 	public String postPayload(String endpoint,String payLoad,RequestSpecification handle) {
-		// TODO Auto-generated method stub
-		return null;
+		
+
+		overriddenBaseUri = (endpoint != null) ? this.baseUri.concat(endpoint) : this.baseUri; // /checks here needed ...
+		return handle.body(payLoad).post().asPrettyString();
+		
 	}
 
 	@Override
 	public String putPayload(String endpoint,String payLoad,RequestSpecification handle) {
-		// TODO Auto-generated method stub
+		
+		overriddenBaseUri = (endpoint != null) ? this.baseUri.concat(endpoint) : this.baseUri; // /checks here needed ...
+		
 		return null;
 	}
 }
