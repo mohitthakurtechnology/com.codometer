@@ -14,7 +14,7 @@ public class Rest
 	
 	public static void setEndpoint(String uri)
 	{
-		RestAssuredOps = uri;
+		//RestAssuredOps = uri;
 	}
 	
 	public static Response getOperation() {

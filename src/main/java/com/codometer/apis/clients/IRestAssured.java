@@ -1,14 +1,13 @@
 package com.codometer.apis.clients;
 
-import java.util.HashMap;
+import io.restassured.specification.RequestSpecification;
 
 public interface IRestAssured {
 	
-	String setUpAClient(String contentType,String authenticationType);
-	String getBearerToken(String uri);
-	HashMap<String,String> basicAuth();
-	String getPayload(String uri);
-	String postPayload(String payLoad);
-	String putPayload(String payLoad);
+	RequestSpecification setUpAClient(String authenticationType);
+	String getBearerToken(String endpoint,RequestSpecification handle);
+	String getPayload(String endpoint,RequestSpecification handle);
+	String postPayload(String endpoint,String payLoad,RequestSpecification handle);
+	String putPayload(String endpoint,String payLoad,RequestSpecification handle);
 	
 }
