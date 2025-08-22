@@ -14,12 +14,12 @@ public class Rest
 	
 	public static void setEndpoint(String uri)
 	{
-		RestAssured.baseURI = uri;
+		RestAssuredOps = uri;
 	}
 	
 	public static Response getOperation() {
 		
-		Response getOpsResponse = RestAssured.given().get();
+		Response getOpsResponse = RestAssuredOps.given().get();
 		return getOpsResponse;
 		
 	}

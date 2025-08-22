@@ -6,7 +6,7 @@ import javax.script.*;
  * document javascript operations can be achieved from the nashorn engine
  * of java.
  */
-public class RestAssured 
+public class RestAssuredOps 
 {
 	Rest restassured;
 }
