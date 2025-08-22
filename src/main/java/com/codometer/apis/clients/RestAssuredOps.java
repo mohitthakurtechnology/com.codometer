@@ -74,7 +74,6 @@ public class RestAssuredOps implements IRestAssured
 			// edge cases for the exact token extraction from the payload later ...
 		
 		 	overriddenBaseUri = (endpoint != null) ? this.baseUri.concat(endpoint) : this.baseUri; // /checks here needed ...
-		 	
 		 	return handle.get(overriddenBaseUri).getBody().asPrettyString();
 		 	
 	}
@@ -90,7 +89,6 @@ public class RestAssuredOps implements IRestAssured
 	@Override
 	public String postPayload(String endpoint,String payLoad,RequestSpecification handle) {
 		
-
 		overriddenBaseUri = (endpoint != null) ? this.baseUri.concat(endpoint) : this.baseUri; // /checks here needed ...
 		return handle.body(payLoad).post().asPrettyString();
 		
@@ -100,7 +98,7 @@ public class RestAssuredOps implements IRestAssured
 	public String putPayload(String endpoint,String payLoad,RequestSpecification handle) {
 		
 		overriddenBaseUri = (endpoint != null) ? this.baseUri.concat(endpoint) : this.baseUri; // /checks here needed ...
+		return handle.body(payLoad).put().asPrettyString();
 		
-		return null;
 	}
 }
