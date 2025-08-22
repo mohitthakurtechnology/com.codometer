@@ -1,0 +1,291 @@
+2025-02-08 20:22:16 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-08 20:22:16 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "3232"
+2025-02-08 20:22:16 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:55698        0.0.0.0:0              LISTENING       3232
+  TCP    [::1]:55698            [::]:0                 LISTENING       3232
+
+2025-02-08 20:25:06 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-08 20:25:06 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "2424"
+2025-02-08 20:25:06 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:55756        0.0.0.0:0              LISTENING       2424
+  TCP    [::1]:55756            [::]:0                 LISTENING       2424
+
+2025-02-08 21:48:09 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-08 21:48:09 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "33648"
+2025-02-08 21:48:09 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:58721        0.0.0.0:0              LISTENING       33648
+  TCP    [::1]:58721            [::]:0                 LISTENING       33648
+
+2025-02-08 21:52:39 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-08 21:52:39 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "23088"
+2025-02-08 21:52:39 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:58830        0.0.0.0:0              LISTENING       23088
+  TCP    [::1]:58830            [::]:0                 LISTENING       23088
+
+2025-02-08 21:56:02 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-08 21:56:02 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "29480"
+2025-02-08 21:56:02 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:58935        0.0.0.0:0              LISTENING       29480
+  TCP    [::1]:58935            [::]:0                 LISTENING       29480
+
+2025-02-08 21:58:31 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-08 21:58:31 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "28820"
+2025-02-08 21:58:31 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:58963        0.0.0.0:0              LISTENING       28820
+  TCP    [::1]:58963            [::]:0                 LISTENING       28820
+
+2025-02-08 22:07:13 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-08 22:07:13 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "15812"
+2025-02-08 22:07:13 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59065        0.0.0.0:0              LISTENING       15812
+  TCP    [::1]:59065            [::]:0                 LISTENING       15812
+
+2025-02-08 22:12:06 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-08 22:12:06 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "24668"
+2025-02-08 22:12:06 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59114        0.0.0.0:0              LISTENING       24668
+  TCP    [::1]:59114            [::]:0                 LISTENING       24668
+
+2025-02-08 22:13:27 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-08 22:13:27 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "20624"
+2025-02-08 22:13:27 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59135        0.0.0.0:0              LISTENING       20624
+  TCP    [::1]:59135            [::]:0                 LISTENING       20624
+
+2025-02-08 22:14:14 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-08 22:14:14 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "27440"
+2025-02-08 22:14:14 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59139        0.0.0.0:0              LISTENING       27440
+  TCP    [::1]:59139            [::]:0                 LISTENING       27440
+
+2025-02-09 13:44:35 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 13:44:35 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "11520"
+2025-02-09 13:44:35 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:54917        0.0.0.0:0              LISTENING       11520
+  TCP    [::1]:54917            [::]:0                 LISTENING       11520
+
+2025-02-09 13:49:44 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 13:49:44 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "10784"
+2025-02-09 13:49:44 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:54982        0.0.0.0:0              LISTENING       10784
+  TCP    [::1]:54982            [::]:0                 LISTENING       10784
+
+2025-02-09 13:51:14 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 13:51:14 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "10040"
+2025-02-09 13:51:14 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:55005        0.0.0.0:0              LISTENING       10040
+  TCP    [::1]:55005            [::]:0                 LISTENING       10040
+
+2025-02-09 15:18:57 [main] INFO  com.codometer.apis.processapi.ProcessAPI - ProcessAPI.getApplicationPathByName:ApplicationName => chromedriver_home
+2025-02-09 15:18:57 [main] INFO  com.codometer.apis.processapi.ProcessAPI - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 15:18:57 [main] INFO  com.codometer.apis.processapi.ProcessAPI - ProcessAPI.getApplicationPathByName:ApplicationName => chromedriverhome
+2025-02-09 15:18:57 [main] INFO  com.codometer.apis.processapi.ProcessAPI - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 15:18:57 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - path is => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 16:29:05 [main] INFO  com.codometer.apis.processapi.ProcessAPI - ProcessAPI.getApplicationPathByName:ApplicationName => chromedriver_home
+2025-02-09 16:29:05 [main] INFO  com.codometer.apis.processapi.ProcessAPI - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 16:29:05 [main] INFO  com.codometer.apis.processapi.ProcessAPI - ProcessAPI.getApplicationPathByName:ApplicationName => chromedriverhome
+2025-02-09 16:29:05 [main] INFO  com.codometer.apis.processapi.ProcessAPI - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 16:29:05 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 16:29:05 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 16:29:05 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "21052"
+2025-02-09 16:29:05 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:56992        0.0.0.0:0              LISTENING       21052
+  TCP    [::1]:56992            [::]:0                 LISTENING       21052
+
+2025-02-09 18:03:09 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 18:03:09 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 18:03:09 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 18:03:09 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "10144"
+2025-02-09 18:03:09 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:58033        0.0.0.0:0              LISTENING       10144
+  TCP    [::1]:58033            [::]:0                 LISTENING       10144
+
+2025-02-09 18:03:09 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is =>   TCP    127.0.0.1:58033        0.0.0.0:0              LISTENING       10144
+  TCP    [::1]:58033            [::]:0                 LISTENING       10144
+
+2025-02-09 18:03:09 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 18:03:09 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 9780
+2025-02-09 18:09:11 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 18:09:11 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 18:09:11 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 18:09:11 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "22444"
+2025-02-09 18:09:11 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:58121        0.0.0.0:0              LISTENING       22444
+  TCP    [::1]:58121            [::]:0                 LISTENING       22444
+
+2025-02-09 18:09:11 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is =>   TCP    127.0.0.1:58121        0.0.0.0:0              LISTENING       22444
+  TCP    [::1]:58121            [::]:0                 LISTENING       22444
+
+2025-02-09 18:09:11 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 18:09:11 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 2916
+2025-02-09 19:04:27 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:04:27 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:04:27 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:04:27 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "16068"
+2025-02-09 19:04:28 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:58720        0.0.0.0:0              LISTENING       16068
+  TCP    [::1]:58720            [::]:0                 LISTENING       16068
+
+2025-02-09 19:04:28 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is =>   TCP    127.0.0.1:58720        0.0.0.0:0              LISTENING       16068
+  TCP    [::1]:58720            [::]:0                 LISTENING       16068
+
+2025-02-09 19:04:28 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:04:28 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 17828
+2025-02-09 19:31:39 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:31:39 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:31:39 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:31:39 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "16076"
+2025-02-09 19:31:39 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59429        0.0.0.0:0              LISTENING       16076
+  TCP    [::1]:59429            [::]:0                 LISTENING       16076
+
+2025-02-09 19:31:39 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:31:39 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 3288
+2025-02-09 19:32:01 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:32:01 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:32:01 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:32:01 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "22056"
+2025-02-09 19:32:01 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59442        0.0.0.0:0              LISTENING       22056
+  TCP    [::1]:59442            [::]:0                 LISTENING       22056
+
+2025-02-09 19:32:01 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is =>   
+2025-02-09 19:32:01 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:32:01 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 10384
+2025-02-09 19:33:19 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:33:19 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:33:19 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:33:19 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "22264"
+2025-02-09 19:33:19 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59465        0.0.0.0:0              LISTENING       22264
+  TCP    [::1]:59465            [::]:0                 LISTENING       22264
+
+2025-02-09 19:33:19 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is =>   
+2025-02-09 19:33:19 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:33:19 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 12932
+2025-02-09 19:34:08 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:34:08 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:34:08 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:34:08 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "19672"
+2025-02-09 19:34:08 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59486        0.0.0.0:0              LISTENING       19672
+  TCP    [::1]:59486            [::]:0                 LISTENING       19672
+
+2025-02-09 19:34:08 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is => 
+2025-02-09 19:34:08 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:34:08 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 21652
+2025-02-09 19:34:42 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:34:42 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:34:42 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:34:42 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "10432"
+2025-02-09 19:34:42 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59501        0.0.0.0:0              LISTENING       10432
+  TCP    [::1]:59501            [::]:0                 LISTENING       10432
+
+2025-02-09 19:34:42 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is =>     127.0.0.1:59501        0.0.0.0:0              LISTENING       10432
+  
+2025-02-09 19:34:42 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:34:42 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 764
+2025-02-09 19:37:36 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:37:36 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:37:36 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:37:36 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "8448"
+2025-02-09 19:37:37 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59587        0.0.0.0:0              LISTENING       8448
+  TCP    [::1]:59587            [::]:0                 LISTENING       8448
+
+2025-02-09 19:37:37 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is =>     127.0.0.1:59587        0.0.0.0:0              LISTENING       8448
+  
+2025-02-09 19:37:37 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:37:37 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 9636
+2025-02-09 19:40:20 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:40:20 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:40:20 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:40:20 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "1612"
+2025-02-09 19:40:20 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59658        0.0.0.0:0              LISTENING       1612
+  TCP    [::1]:59658            [::]:0                 LISTENING       1612
+
+2025-02-09 19:40:20 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is => TCP    127.0.0.1:59658        0.0.0.0:0              LISTENING       1612
+  TCP    [::1]:59658            [::]:0                 LISTENING       1612
+2025-02-09 19:40:20 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:40:20 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 2052
+2025-02-09 19:48:06 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:48:06 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:48:06 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:48:06 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "11460"
+2025-02-09 19:48:06 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59856        0.0.0.0:0              LISTENING       11460
+  TCP    [::1]:59856            [::]:0                 LISTENING       11460
+
+2025-02-09 19:48:06 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is => TCP    127.0.0.1:59856        0.0.0.0:0              LISTENING       11460
+  TCP    [::1]:59856            [::]:0                 LISTENING       11460
+2025-02-09 19:48:06 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:48:06 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 7700
+2025-02-09 19:49:47 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:49:47 [main] INFO  com.codometer.apis.processapi.ProcessAPI - C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:49:47 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:49:47 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "664"
+2025-02-09 19:49:47 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING       1040
+  TCP    127.0.0.1:59901        0.0.0.0:0              LISTENING       664
+  TCP    [::]:49664             [::]:0                 LISTENING       1040
+  TCP    [::1]:59901            [::]:0                 LISTENING       664
+
+2025-02-09 19:49:47 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is => TCP    0.0.0.0
+2025-02-09 19:49:47 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:49:47 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 14480
+2025-02-09 19:50:28 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:50:28 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:50:28 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "12592"
+2025-02-09 19:50:28 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59925        0.0.0.0:0              LISTENING       12592
+  TCP    [::1]:59925            [::]:0                 LISTENING       12592
+
+2025-02-09 19:50:28 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is => 59925        0.0.0.0
+2025-02-09 19:50:28 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:50:28 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 8752
+2025-02-09 19:51:05 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:51:05 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:51:05 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "8352"
+2025-02-09 19:51:05 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59938        0.0.0.0:0              LISTENING       8352
+  TCP    [::1]:59938            [::]:0                 LISTENING       8352
+
+2025-02-09 19:51:05 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is => 59938
+2025-02-09 19:51:05 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:51:05 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 19360
+2025-02-09 19:52:46 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-09 19:52:46 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:52:46 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:replaced process id with pid in the command =>netstat -ano | findstr "17668"
+2025-02-09 19:52:46 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59985        0.0.0.0:0              LISTENING       17668
+  TCP    [::1]:59985            [::]:0                 LISTENING       17668
+
+2025-02-09 19:52:46 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is => 59985
+2025-02-09 19:52:46 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPI - RunTimeAPI.invokeApplication:successfully invoked
+2025-02-09 19:52:46 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 19952
+2025-02-09 20:29:34 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPI.executeShellCommand:successfully generated =>  TCP    127.0.0.1:60555        0.0.0.0:0              LISTENING       21716
+  TCP    [::1]:60555            [::]:0                 LISTENING       21716
+
+2025-02-09 20:29:34 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - chromedriver process api intance is alive => true
+2025-02-09 20:32:05 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.executeShellCommand:successfully generated =>  TCP    127.0.0.1:60597        0.0.0.0:0              LISTENING       19928
+  TCP    [::1]:60597            [::]:0                 LISTENING       19928
+
+2025-02-09 20:32:05 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.invokeApplicationTest chromedriver process api instance is alive => true
+2025-02-09 20:46:30 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.abortProcessTest: Success
+2025-02-09 21:30:46 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.abortProcessTest: Success
+2025-02-09 22:04:51 [main] INFO  com.codometer.apis.w3c.webdriver.WebDriverTest - HttpResponseProxy{HTTP/1.1 404 Not Found [Content-Length:744, Content-Type:application/json; charset=utf-8, cache-control:no-cache] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 744,Chunked: false]}}
+2025-02-09 22:06:30 [main] INFO  com.codometer.apis.w3c.webdriver.WebDriverTest - HttpResponseProxy{HTTP/1.1 404 Not Found [Content-Length:744, Content-Type:application/json; charset=utf-8, cache-control:no-cache] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 744,Chunked: false]}}
+2025-02-09 22:07:05 [main] INFO  com.codometer.apis.w3c.webdriver.WebDriverTest - HttpResponseProxy{HTTP/1.1 404 Not Found [Content-Length:744, Content-Type:application/json; charset=utf-8, cache-control:no-cache] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 744,Chunked: false]}}
+2025-02-09 22:07:46 [main] INFO  com.codometer.apis.w3c.webdriver.WebDriverTest - HttpResponseProxy{HTTP/1.1 200 OK [Content-Length:250, Content-Type:application/json; charset=utf-8, cache-control:no-cache] ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 250,Chunked: false]}}
+2025-02-09 22:09:05 [main] INFO  com.codometer.apis.w3c.webdriver.WebDriverTest - ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 250,Chunked: false]}
+2025-02-09 22:13:48 [main] INFO  com.codometer.apis.w3c.webdriver.WebDriverTest - {"value":{"build":{"version":"131.0.6778.264 (2d05e31515360f4da764174f7c448b33e36da871-refs/branch-heads/6778@{#4323})"},"message":"ChromeDriver ready for new sessions.","os":{"arch":"x86_64","name":"Windows NT","version":"10.0.26100"},"ready":true}}
+
+2025-02-10 21:00:48 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.executeShellCommand:successfully generated =>  TCP    127.0.0.1:59664        0.0.0.0:0              LISTENING       14148
+  TCP    [::1]:59664            [::]:0                 LISTENING       14148
+
+2025-02-10 21:00:48 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.invokeApplicationTest chromedriver process api instance is alive => true
+2025-02-10 22:05:45 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.executeShellCommand:successfully generated =>  TCP    127.0.0.1:61199        0.0.0.0:0              LISTENING       23096
+  TCP    [::1]:61199            [::]:0                 LISTENING       23096
+
+2025-02-10 22:05:45 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.invokeApplicationTest chromedriver process api instance is alive => true
+2025-02-10 22:09:35 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.abortProcessTest: Success
+2025-02-10 22:09:35 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-10 22:09:35 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is => 61249
+2025-02-10 22:09:35 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 18320
+2025-02-10 22:09:51 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.abortProcessTest: Success
+2025-02-10 22:09:51 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:ApplicationName Path => C:\personal softwares\chromedriver-131.0.6778.264\chromedriver.exe
+2025-02-10 22:09:51 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Port Number is => 61253
+2025-02-10 22:09:51 [main] INFO  com.codometer.apis.processapi.ProcessAPITest - ProcessAPI.getApplicationPathByName:InvokeApplication Process ID is => 2040
+2025-02-10 22:10:22 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.executeShellCommand:successfully generated =>  TCP    127.0.0.1:61258        0.0.0.0:0              LISTENING       22856
+  TCP    [::1]:61258            [::]:0                 LISTENING       22856
+
+2025-02-10 22:10:22 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.invokeApplicationTest chromedriver process api instance is alive => true
+2025-02-10 22:14:27 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.executeShellCommand:successfully generated =>  TCP    127.0.0.1:61305        0.0.0.0:0              LISTENING       22624
+  TCP    [::1]:61305            [::]:0                 LISTENING       22624
+
+2025-02-10 22:14:27 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.invokeApplicationTest chromedriver process api instance is alive => true
+2025-02-10 22:16:16 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.executeShellCommand:successfully generated =>  TCP    127.0.0.1:61335        0.0.0.0:0              LISTENING       13544
+  TCP    [::1]:61335            [::]:0                 LISTENING       13544
+
+2025-02-10 22:16:16 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.invokeApplicationTest chromedriver process api instance is alive => true
+2025-02-10 22:17:43 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.executeShellCommand:successfully generated =>  TCP    127.0.0.1:61368        0.0.0.0:0              LISTENING       20044
+  TCP    [::1]:61368            [::]:0                 LISTENING       20044
+
+2025-02-10 22:17:43 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.invokeApplicationTest chromedriver process api instance is alive => true
+2025-02-10 22:24:11 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.executeShellCommand:successfully generated =>  TCP    127.0.0.1:61501        0.0.0.0:0              LISTENING       19856
+  TCP    [::1]:61501            [::]:0                 LISTENING       19856
+
+2025-02-10 22:24:11 [main] INFO  com.codometer.apis.runtimeapi.RunTimeAPITest - RunTimeAPITest.invokeApplicationTest chromedriver process api instance is alive => true

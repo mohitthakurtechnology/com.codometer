@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.codometer.geeksforgeek.collections.HashMapOpsTest"/>
+      <class name="com.codometer.geeksforgeek.collections.AnyHashMapOpsTest"/>
+      <class name="com.codometer.geeksforgeek.collections.HashSetOpsTest"/>
+      <class name="com.codometer.geeksforgeek.collections.AnyHashSetOpsTest"/>
+      <class name="com.codometer.geeksforgeek.collections.TreeSetOpsTest"/>
+      <class name="com.codometer.geeksforgeek.collections.AnyTreeSetOpsTest"/>
+      <class name="com.codometer.geeksforgeek.collections.TreeMapOpsTest"/>
+      <class name="com.codometer.geeksforgeek.collections.AnyTreeMapOpsTest"/>
+      <class name="com.codometer.geeksforgeek.collections.AnyListOpsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,2 @@
+print('js scripting via java');
+window.open("https://www.w3schools.com");
