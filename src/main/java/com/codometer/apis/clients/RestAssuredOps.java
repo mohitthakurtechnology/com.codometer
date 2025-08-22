@@ -67,7 +67,7 @@ public class RestAssuredOps implements IRestAssured
 	}
 
 	@Override
-	public String getBearerToken(String endpoint,RequestSpecification handle) {
+	public String getBearerToken(String endpoint,RequestSpecification handle) { // supposed to be in utility
 		
 			// edge cases for the exact token extraction from the payload later ...
 		
@@ -78,9 +78,11 @@ public class RestAssuredOps implements IRestAssured
 	}
 
 	@Override
-	public String getPayload(String uri,RequestSpecification handle) {
-		// TODO Auto-generated method stub
-		return null;
+	public String getPayload(String endpoint,RequestSpecification handle) {
+		
+		overriddenBaseUri = (endpoint != null) ? this.baseUri.concat(endpoint) : this.baseUri; // /checks here needed ...
+		return handle.get(overriddenBaseUri).getBody().asString();
+		
 	}
 
 	@Override
