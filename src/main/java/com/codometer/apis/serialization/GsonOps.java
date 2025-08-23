@@ -8,9 +8,15 @@ import com.google.gson.Gson;
 public class GsonOps<ANY> 
 {
 	String anyclassname,anyresponse;
+	Object anyobject;
 	
 	Gson gson;
 	Class anyclass;
+	
+	public GsonOps(Object anyobject)
+	{
+		this.anyobject = anyobject;
+	}
 	
 	public GsonOps(String anyresponse,String anyclassname)
 	{
@@ -36,11 +42,10 @@ public class GsonOps<ANY>
 		
 	}
 	
-	public String serializePayload(Object anyobject)
+	public String serializePayload()
 	{
 		 try {
 			 	gson = new Gson();
-			 	gson.toJson(anyobject);
 			 	return gson.toJson(anyobject);
 			 
 		} catch (Exception e) {

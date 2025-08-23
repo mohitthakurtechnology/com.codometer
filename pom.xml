@@ -112,6 +112,9 @@
 	                        <suiteXmlFile>
 	                            src\test\resources\APIBindsTests.xml
 	                        </suiteXmlFile>
+	                        <suiteXmlFile>
+	                        	src\test\resources\RestAssuredOpsTest.xml
+	                        </suiteXmlFile>
 	                    </suiteXmlFiles>
 	                        
 	                </configuration>
