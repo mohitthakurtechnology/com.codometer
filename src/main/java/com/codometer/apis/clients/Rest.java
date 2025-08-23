@@ -11,6 +11,7 @@ import io.restassured.response.Response;
 public class Rest 
 {
 	static Gson gson;
+	String baseURI;
 	
 	public static void setEndpoint(String uri)
 	{
