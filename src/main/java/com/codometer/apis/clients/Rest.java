@@ -11,15 +11,16 @@ import io.restassured.response.Response;
 public class Rest 
 {
 	static Gson gson;
+	String baseURI;
 	
 	public static void setEndpoint(String uri)
 	{
-		//RestAssuredOps = uri;
+		RestAssured.baseURI = uri;
 	}
 	
 	public static Response getOperation() {
 		
-		Response getOpsResponse = RestAssuredOps.given().get();
+		Response getOpsResponse = RestAssured.given().get();
 		return getOpsResponse;
 		
 	}
