@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\mohit\git\com.codometer\src\test\resources\APIBindsTests.xml</span>
+                    <span>C:\Users\mohit\git\com.codometer\src\test\resources\RestAssuredOpsTest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,27 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.codometer.apis.clients.RestTest" class="method navigator-link" hash-for-method="getOperationTest">getOperationTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.codometer.apis.clients.RestAssuredOpsTest" class="method navigator-link" hash-for-method="getBearerTokenTest">getBearerTokenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.codometer.apis.clients.RestAssuredOpsTest" class="method navigator-link" hash-for-method="getPayloadTest">getPayloadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.codometer.apis.clients.RestAssuredOpsTest" class="method navigator-link" hash-for-method="postPayloadTest">postPayloadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.codometer.apis.clients.RestAssuredOpsTest" class="method navigator-link" hash-for-method="putPayloadTest">putPayloadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.codometer.apis.clients.RestAssuredOpsTest" class="method navigator-link" hash-for-method="setUpAClientTest">setUpAClientTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -121,14 +141,42 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.codometer.apis.clients.RestTest</span>
+              <span class="class-name">com.codometer.apis.clients.RestAssuredOpsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getOperationTest">
-                  </a> <!-- getOperationTest -->
-                  <span class="method-name">getOperationTest</span>
+                  <a name="getBearerTokenTest">
+                  </a> <!-- getBearerTokenTest -->
+                  <span class="method-name">getBearerTokenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPayloadTest">
+                  </a> <!-- getPayloadTest -->
+                  <span class="method-name">getPayloadTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postPayloadTest">
+                  </a> <!-- postPayloadTest -->
+                  <span class="method-name">postPayloadTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="putPayloadTest">
+                  </a> <!-- putPayloadTest -->
+                  <span class="method-name">putPayloadTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUpAClientTest">
+                  </a> <!-- setUpAClientTest -->
+                  <span class="method-name">setUpAClientTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +184,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\mohit\git\com.codometer\src\test\resources\APIBindsTests.xml</span>
+            <span class="header-content">C:\Users\mohit\git\com.codometer\src\test\resources\RestAssuredOpsTest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +193,7 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.codometer.apis.clients.RestTest&quot;/&gt;
+      &lt;class name=&quot;com.codometer.apis.clients.RestAssuredOpsTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -185,16 +233,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getOperationTest')
-data.setCell(0, 2, 'com.codometer.apis.clients.RestTest')
-data.setCell(0, 3, 2367);
+data.setCell(0, 1, 'postPayloadTest')
+data.setCell(0, 2, 'com.codometer.apis.clients.RestAssuredOpsTest')
+data.setCell(0, 3, 2546);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getPayloadTest')
+data.setCell(1, 2, 'com.codometer.apis.clients.RestAssuredOpsTest')
+data.setCell(1, 3, 1288);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getBearerTokenTest')
+data.setCell(2, 2, 'com.codometer.apis.clients.RestAssuredOpsTest')
+data.setCell(2, 3, 8);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'setUpAClientTest')
+data.setCell(3, 2, 'com.codometer.apis.clients.RestAssuredOpsTest')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'putPayloadTest')
+data.setCell(4, 2, 'com.codometer.apis.clients.RestAssuredOpsTest')
+data.setCell(4, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -220,10 +284,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.codometer.apis.clients.RestTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.codometer.apis.clients.RestAssuredOpsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getOperationTest</span>
+                <span class="method-name">getBearerTokenTest</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">putPayloadTest</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUpAClientTest</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postPayloadTest</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getPayloadTest</span>
+                <span class="method-start">2568 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

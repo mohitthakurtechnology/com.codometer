@@ -3,11 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.codometer.apis.clients.RestTest">
+      <class name="com.codometer.apis.clients.RestAssuredOpsTest">
         <methods>
-          <include name="getOperationTest"/>
+          <include name="getPayloadTest"/>
         </methods>
-      </class> <!-- com.codometer.apis.clients.RestTest -->
+      </class> <!-- com.codometer.apis.clients.RestAssuredOpsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -17,20 +17,20 @@ public class RestAssuredOps implements IRestAssured
 	
 	static String overriddenBaseUri;
 	
-	RestAssuredOps(String baseUri,String contentType)
+	RestAssuredOps(String baseUri)
 	{
 		this.baseUri = baseUri;
 		this.contentType = contentType;
 	}
 	
-	RestAssuredOps(String baseUri,String contentType,HashMap<String,String> basicAuths)
+	RestAssuredOps(String baseUri,HashMap<String,String> basicAuths)
 	{
 		this.baseUri = baseUri;
 		this.contentType = contentType;
 		this.basicAuths = basicAuths;
 	}
 	
-	RestAssuredOps(String baseUri,String contentType,String bearerToken)
+	RestAssuredOps(String baseUri,String bearerToken)
 	{
 		this.baseUri = baseUri;
 		this.contentType = contentType;
@@ -38,7 +38,7 @@ public class RestAssuredOps implements IRestAssured
 	}
 	
 	@Override
-	public RequestSpecification setUpAClient(String authenticationType) {
+	public RequestSpecification setUpAClient(String authenticationType,HashMap<String,String> headers) {
 		
 		// Query param , path param implemention at the set up level and the each CRUD level
 		
@@ -47,11 +47,15 @@ public class RestAssuredOps implements IRestAssured
 		String userName = null;
 		String password = null;
 		
-		if(authenticationType.compareTo("NOAUTH") == 0)
+		if(authenticationType.compareTo("NOAUTH") == 0 && headers.size() == 0)
 		{
 			return RestAssured.given().contentType(this.contentType);
 		}
-		else if(authenticationType.compareTo("BASICAUTH") == 0)
+		else if(authenticationType.compareTo("NOAUTH") == 0 && headers.size() > 0)
+		{
+			return RestAssured.given().headers(headers);
+		}
+		else if(authenticationType.compareTo("BASICAUTH") == 0 && headers.isEmpty() == true)
 		{
 			
 			userName = basicAuths.get(userName);
@@ -60,9 +64,30 @@ public class RestAssuredOps implements IRestAssured
 			return RestAssured.given().contentType(this.contentType).auth().basic(userName, password);
 			
 		}
-		else if(authenticationType.compareTo("BEARERTOKEN") == 0)
+		else if(authenticationType.compareTo("BASICAUTH") == 0 && headers.isEmpty() != true)
 		{
+			
+			userName = basicAuths.get(userName);
+			password = basicAuths.get(password);
+			
+			return RestAssured.given().contentType(this.contentType).auth().basic(userName, password).headers(headers);
+			
+		}
+		else if(authenticationType.compareTo("BEARERTOKENOAUTH") == 0 && headers.isEmpty() == true)
+		{
+			
 			return RestAssured.given().contentType(this.contentType).auth().oauth2(bearerToken);
+			
+		}
+		else if(authenticationType.compareTo("BEARERTOKENOAUTH") == 0 && headers.isEmpty() != true)
+		{
+			
+			return RestAssured.given().contentType(this.contentType).auth().oauth2(bearerToken).headers(headers);
+			
+		}
+		else if(authenticationType.compareTo("BEARERTOKENHEADER") == 0 && headers.size() > 0)
+		{
+			return RestAssured.given().headers(headers);
 		}
 		
 		return null;
