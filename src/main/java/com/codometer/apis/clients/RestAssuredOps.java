@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;
+import com.codometer.apis.clients.IRestAssured;
 
 /*
  * document rest client set up using rest assured

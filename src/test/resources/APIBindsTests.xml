@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.codometer.apis.clients.RestTest"/>
+      <class name="com.codometer.apis.clients.HTTPClientTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
