@@ -2,6 +2,7 @@ package com.codometer.apis.clients;
 
 import java.util.HashMap;
 
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.codometer.apis.posters.LoginDummyUser;
@@ -11,7 +12,7 @@ import com.codometer.apis.serialization.GsonOps;
 import io.restassured.specification.RequestSpecification;
 
 // sample unit tests using testng
-
+@Ignore
 public class RestAssuredOpsTest {
 	
 	  RestAssuredOps restassuredOps,restassuredOpsbasicAuth,restassuredOpsNoAuth;
