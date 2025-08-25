@@ -12,7 +12,7 @@ import com.codometer.apis.serialization.GsonOps;
 import io.restassured.specification.RequestSpecification;
 
 // sample unit tests using testng
-@Ignore
+
 public class RestAssuredOpsTest {
 	
 	  RestAssuredOps restassuredOps,restassuredOpsbasicAuth,restassuredOpsNoAuth;

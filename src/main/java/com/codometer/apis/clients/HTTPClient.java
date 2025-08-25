@@ -4,12 +4,10 @@ import java.io.IOException;
 import java.util.HashMap;
 
 import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpPut;
+import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
@@ -20,7 +18,9 @@ import org.apache.http.impl.client.HttpClients;
 public class HTTPClient<ANY> implements IHTTPClient<ANY>
 {
 	
-	String baseURI;
+	String baseURI,response,reqPayLoad,contentType;
+	
+	StringEntity stringEntity;
 	
 	static CloseableHttpClient httpClient;
 	
@@ -32,8 +32,6 @@ public class HTTPClient<ANY> implements IHTTPClient<ANY>
 
 	@Override
 	public String executeGET(HashMap<ANY,ANY> config) {
-		
-		String response;
 		
 		baseURI = config.get("baseURI").toString();
 		
@@ -61,12 +59,37 @@ public class HTTPClient<ANY> implements IHTTPClient<ANY>
 //		return null;
 //	}
 //
-//	@Override
-//	public String executePOST(HashMap config) {
-//		HttpPost httppost = new HttpPost();
-//		
-//		return null;
-//	}
+	@Override
+	public String executePOST(HashMap<ANY,ANY> config) {
+		
+		baseURI = config.get("baseURI").toString();
+		reqPayLoad = config.get("reqPayLoad").toString();
+		contentType = config.get("Content-Type").toString();
+		
+		HttpPost httppost = new HttpPost(baseURI);
+		httppost.setHeader("Content-Type",contentType);
+		
+		try {
+				stringEntity = new StringEntity(reqPayLoad);
+				
+				httppost.setEntity(stringEntity);
+				
+				getHttpResponse = httpClient.execute(httppost);
+				
+				response = new String(getHttpResponse.getEntity().getContent().readAllBytes());
+				
+				return response;
+			
+		} catch (ClientProtocolException e) {
+			
+			e.printStackTrace();
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
 //
 //	@Override
 //	public String executeDELETE(HashMap config) {
